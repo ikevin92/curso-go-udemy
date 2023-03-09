@@ -1,10 +1,13 @@
 package main
 
-import "github.com/donvito/hellomod"
+// import "github.com/donvito/hellomod"
+import "github.com/ikevin92/figuras"
 
 // "paquetes/mensajes"
 
 func main() {
+	cua1 := figuras.Cuadrado{Lado: 10}
+	figuras.Medidas(&cua1)
 	// mensajes.Hola()
 	// mensajes.Imprimir()
 
@@ -25,5 +28,5 @@ func main() {
 			fmt.Println("Nombre p1:", p1.GetNombre())
 	*/
 
-	hellomod.SayHello()
+	// hellomod.SayHello()
 }
